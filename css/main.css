@@ -1,0 +1,343 @@
+/*
+ * Estilos de tu proyecto
+ */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+ }
+
+ body {
+  padding: 0;
+  margin: 0 auto;
+  overflow-x: hidden;
+ }
+ /*navbar*/
+ .navB {
+  position: fixed;
+  background-color: #2b3d4f;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  margin-top: 0px;
+ }
+ .navB h2{
+  margin-top: 25px;
+ }
+ /*titulo izquierdo*/
+ .lado-a{
+  margin-left: 80px;
+  float: left;
+  overflow: hidden;
+  color: white;
+ }
+ /*vinculos derecha*/
+ .lado-b {
+  float: right;
+  margin-right: 40px;
+  font-size: 18px;
+ }
+ a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0px;
+  padding: 30px;
+ }
+ /*posicion del cursor navbar*/
+ a:hover {
+  background-color: #1E2148;
+  height: 78px;
+ }
+
+ /*seccion portada*/
+ #portada{
+  background-color: #18ba9a;
+ }
+ .images {
+  margin-left: 550px;
+  margin-top: 150px;
+ }
+ #portada h1{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+ }
+ /*linea de la derecha*/
+ .line-D{
+  border: 3px solid white;
+  width: 8%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 560px;
+ }
+ /*estrella*/
+ .stardust{
+  margin-left: 680px;
+  color: white;
+ }
+ /*linea izquierda*/
+ .line-Iz{
+  border: 3px solid white;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 705px;
+ }
+ #portada h3{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+ }
+
+/* Estilos para portafolio */
+.container {
+  text-align: center;/*me sirve para tambien alinear la estrella*/
+  margin-bottom: 80px; 
+    margin-top: 100px;
+}
+
+ /*linea de la derecha numero dos*/
+ .line-d{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 470px;
+ }
+
+ /*linea izquierda numero dos*/
+ .line-i{
+  border: 3px solid black;
+  width: 8%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 620px; 
+ }
+
+
+/* seccion about */
+.about {
+  background-color: #18ba9a;
+    text-align: center;
+}
+
+.acerca h2{
+  margin-top: 80px;
+    color: white;
+    font-size: 30px;
+}
+
+ /*linea de la derecha 3*/
+ .line-Derecha{
+  position: absolute;
+  border: 3px solid white;
+  width: 8%;
+  margin-top: 5px;
+  margin-left: 540px;
+ }
+ /*estrella-lineas numero 3*/
+ .stardust2{
+  margin-left: 0px;
+  color: white;
+ }
+ /*linea izquierda 3*/
+ .line-Izquierda{
+  position: absolute;
+  border: 3px solid white;
+  width: 8%;
+  margin-top: -13px;
+  margin-left: 680px;
+}
+
+.parrafo{
+  text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.botton {
+    background-color: #18ba9a;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    border: solid white 1px;
+    margin-bottom: 80px;
+}
+.botton:hover{
+  background-color: #009485;
+}
+
+/* formulario */
+.contacto h2{
+    text-align: center;
+}
+/*estrellita*/
+.contacto p{
+    text-align: center;
+}
+/*linea de la derecha 4*/
+ .line1{
+  position: absolute;
+  border: 3px solid black;
+  width: 8%;
+   margin-top: 6px;
+  margin-left: 540px;
+ }
+ /*linea izquierda 4*/
+ .line2{
+  position: absolute;
+  border: 3px solid black;
+  width: 8%;  
+  margin-top: -13px;
+  margin-left: 680px;
+}
+
+input[type=text] {
+    width: 130%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #E1DBD9;
+}
+
+textarea {
+    width: 130%;
+    height: 150px;
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #E1DBD9;
+    border-bottom: 1px;
+    ;
+}
+
+.button{
+    background-color: #18ba9a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    float: left;
+}
+.button:hover{
+  background-color: #2b3d4f;
+}
+
+/* Estilos para el footer */
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    background-color: #2b3d4f;
+    color: white;
+}
+.footer h3{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.footer p{
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+.freelancer {
+    font-size: 20px;
+}
+.iconos{
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*estilos y circulo de iconos*/
+.media{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+}
+/*texto con link */
+.hipervinculo {
+    color: #18ba9a;
+    cursor: pointer;
+}
+footer {
+    background-color: #233140;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/*modal*/
+.box-services{
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: grey;
+}
+/* Trate de que pusiera un fondo con el hover, no funciono :P;
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.box-services:hover{
+  bottom: 0;
+  height: 100%;
+}*/
+
+/*Modal*/
+#box-services-modal{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+  #box-services-modal .modal-body{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+  }
+  /*posicion de X*/
+  #box-services-modal .close{
+    position: absolute;
+    cursor: pointer;
+    top: 100px;
+    right: 40px;
+    width: 100px;
+    margin-right: 300px;
+  }
+
+  #box-services-modal .close img{
+    width: 40px;
+  }
+  .hide{
+    display: none;
+  }
